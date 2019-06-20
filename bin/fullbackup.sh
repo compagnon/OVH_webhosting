@@ -31,9 +31,14 @@ then
  FILES_NB=$DEFAULT_FILES_NB;
 fi
 
+echo "script version"
+stat -c %y $0
+
+echo "current path"
+pwd
 echo "Archivage de l ensemble des fichiers sur le ~"
 echo "$FILES_NB archives possibles en mode tournant: le plus vieux supprimé"
-cd ..
+
 DATE=`date +%Y-%m-%d-%H%M%S`
 declare -i count=0
 for fn in `ls -Rt backup/*_backup.tar.gz` ; do
