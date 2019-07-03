@@ -1,2 +1,3 @@
-# OVH_webhosting
-utils for managing OVH (web hosting , vps , cloud private public
+# OVH Wordpress Webhosting
+
+utils for managing under OVH a Wordpress site

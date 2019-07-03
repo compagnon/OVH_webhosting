@@ -10,10 +10,11 @@ comments: false
 tags: [wordpress, webhosting, ovh, migration]
 ---
 
-# Wordpress // tips for  from URL A to URL B
+# Wordpress // notes for migrating a WordPress site from URL A to URL B
+(duplicate a webhosting OVH for getting UAT and A/B testing)
 
 -----
-
+Original post is on [https://gcompagnon.github.io/](https://gcompagnon.github.io/)
 
 # Backup and recover to another WebHosting
 
@@ -31,6 +32,9 @@ a script that untar from a file in the rootpath of the webhosting
 ````
 ./bin/restorebackup.sh
 ````
+
+scripts repository: [https://github.com/compagnon/OVH_wordpress_webhosting](https://github.com/compagnon/OVH_wordpress_webhosting)
+
 ## Backup MySQL
 Dump the MySQL db
 
